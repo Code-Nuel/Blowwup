@@ -1,0 +1,220 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "_requestNo",
+				"type": "uint256"
+			}
+		],
+		"name": "DonationSuccessful",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "_requestNo",
+				"type": "uint256"
+			}
+		],
+		"name": "RequestCreated",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "_requestNo",
+				"type": "uint256"
+			}
+		],
+		"name": "WithdrawalSuccessful",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_address",
+				"type": "address"
+			}
+		],
+		"name": "addAdmin",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "adminWithdraw",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_description",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_targetAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_minimumTargetAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_ROI",
+				"type": "uint256"
+			}
+		],
+		"name": "createRequest",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_requestNo",
+				"type": "uint256"
+			}
+		],
+		"name": "donate",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getContractBalance",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "numOfAllRequest",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_address",
+				"type": "address"
+			}
+		],
+		"name": "removeAdmin",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_requestNo",
+				"type": "uint256"
+			}
+		],
+		"name": "viewRequest",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "targetAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minimumTargetAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "ROI",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountRaised",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numOfInvestors",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"internalType": "struct Crowdfunding.CrowdfundRequest",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_requestNo",
+				"type": "uint256"
+			}
+		],
+		"name": "withdrawFunds",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
