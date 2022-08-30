@@ -1,0 +1,7 @@
+npx prisma migrate dev --name renamed_the_post_values_and_added_user_password --create-only //to upgrade a table
+
+npx prisma init --datasource-provider sqlite // to init prisma with sqlite
+
+npx prisma migrate dev // prisma migrate
+
+npx prisma generate // to generate itself after new update
