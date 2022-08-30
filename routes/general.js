@@ -112,5 +112,27 @@ router.put("/project/:id", async (req, res)=>{
     }
 }) 
 
+router.delete('/project/:id/:uid', async (req, res) => {
+    const { id } = req.params
+    const  { uid } = req.params
+
+    var user = await prisma.user.findFirst({
+        where : {
+            uid : uid
+        }
+    })
+    console.log(user)
+    if (user == null || user.length == 0){
+        res.status(200).json({"message" : "project not found or you do not have permission to delete the project"})
+    } else {
+        const data = await prisma.project.delete({
+            where: {
+              id : parseInt(id) ,
+            },
+          })
+        res.status(200).json({"message" : data})
+    }
+    res.json(user)
+  })
 
 module.exports = router;
