@@ -13,7 +13,6 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 
 router.post("/login",async (req, res)=>{
-    // console.log(randomUUID())
     const { email , password } = req.body
     var post = await prisma.user.findFirst({
         where : {
