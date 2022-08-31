@@ -1,4 +1,4 @@
-# Blowwup, A platform where artists connects with fans 
+# Blowwup, A platform where artists connects with fans for funding and networking 
 
 Blowwup is a Web3 social media platform where artists can connect with other professionals who will help their projects succeed and raise money for them.
 The Anxilla platform offers a venue where musicians and fans may interact and support each other's careers by purchasing the musician's body of work as well as streaming their music.
@@ -7,7 +7,7 @@ The artists can submit a request for funding by uploading a sample of their idea
 A request for the fund can be made by the artist once the funds match their budget.
 This project aims to provide artists with all the resources they need—including money, a support network, expertise, etc.—in order to maintain their independence and support themselves directly. Additionally, this is a means for fans to truly invest in an artist from the beginning of their career in a way that has only been possible for a small number of affluent people and businesses since recorded music was invented. 
 
-## Reasons for Blowwup
+## Motivation for Blowwup
 ### Lack of funds
 The inability to finance the creation of top-notch music, music video, its promotion, or its branding prevents musicians from reaching a bigger audience. Most musicians lose motivation as a result of this and wind up looking for alternative professional paths.
 
@@ -64,5 +64,5 @@ Gmail 📧 ifebuemedaniel7@gmail.com
 Github :- Patrickowor
 Gmail 📧  patrick.ikongha@gmail.com
 
-Github :- 
-Gmail 📧
+Github :- code-nurl
+Gmail 📧 codenuel2000@gmail.com
