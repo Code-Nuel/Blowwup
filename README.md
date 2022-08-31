@@ -64,5 +64,5 @@ Gmail 📧 ifebuemedaniel7@gmail.com
 Github :- Patrickowor
 Gmail 📧  patrick.ikongha@gmail.com
 
-Github :- code-nurl
+Github :- Code-Nuel
 Gmail 📧 codenuel2000@gmail.com
