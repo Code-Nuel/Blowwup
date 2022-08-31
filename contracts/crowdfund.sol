@@ -19,7 +19,7 @@ contract Crowdfunding{
     event DonationSuccessful(uint _requestNo);
     event WithdrawalSuccessful(uint _requestNo);
 
-    address super_user = 0x19fb11c71cB639cbA6729d3852c9Fd17A8df8e0e; //fake
+    address super_user = 0xc02B0DfD9037BDA377eE3DC9789f406a4C6A9479; //fake
     mapping(uint => CrowdfundRequest) private requests;
     mapping(address => bool) private _admins;
     mapping(address => uint) private _investorAmount;
@@ -130,5 +130,10 @@ contract Crowdfunding{
 
     }
 
+    function withdrawInvestment(uint256 _requestNo) public view exist(_requestNo) returns(string memory){
+        string memory message = "Functionality is still in progress";
+        return message;
+
+    }
 
 }
