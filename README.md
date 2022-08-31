@@ -1,4 +1,4 @@
-# Blowwup, A platform where artists connects with fans and other music personnel to create, collaborate and fund their music project.
+# Blowwup, A platform where artists connects with fans 
 
 Blowwup is a Web3 social media platform where artists can connect with other professionals who will help their projects succeed and raise money for them.
 The Anxilla platform offers a venue where musicians and fans may interact and support each other's careers by purchasing the musician's body of work as well as streaming their music.
